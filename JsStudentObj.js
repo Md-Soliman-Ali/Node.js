@@ -12,7 +12,7 @@ const path = require("path");
 
 const userDB = path.join(__dirname, "./jsObject.json");   // Locate the data file
 const userData = fs.readFileSync(userDB);   // Read data from data file
-const userObj = JSON.parse(userData);   // Parsing json data to json object 
+const userObj = JSON.parse(userData);   // JSON.parse (Parsing json data to json object) 
 console.log(userObj)
 
 let student = {
@@ -25,10 +25,10 @@ let student = {
 userObj.push(student);
 console.log(userObj)
 
-fs.writeFileSync(userDB, JSON.stringify(userObj));    // Parse json object to json data 
+fs.writeFileSync(userDB, JSON.stringify(userObj));    // JSON.stringify (Parse json object to json data) 
 
 // JSON Data Update
 var JsonData = require("./jsObject.json");
 JsonData[3].Name = "XYZ"
 
-fs.writeFileSync("./jsObject.json", JSON.stringify(JsonData));     // Parse json object to json data
+fs.writeFileSync("./jsObject.json", JSON.stringify(JsonData));     // JSON.stringify (Parse json object to json data)
