@@ -1,7 +1,7 @@
 {
   "name": "node",
   "version": "1.0.0",
-  "description": "",
+  "description": "``\r www.w3resource.com\r ``",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,8 +11,16 @@
   "license": "ISC",
   "dependencies": {
     "dateformat": "^5.0.3",
-    "fs": "^0.0.1-security",
+    "fs": "0.0.1-security",
     "path": "^0.12.7",
     "prompt-sync": "^4.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Md-Soliman-Ali/Node.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Md-Soliman-Ali/Node.js/issues"
+  },
+  "homepage": "https://github.com/Md-Soliman-Ali/Node.js#readme"
 }

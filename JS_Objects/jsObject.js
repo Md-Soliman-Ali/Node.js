@@ -1,5 +1,4 @@
-var student = [
-    {
+var student = [{
         "Name": "ABC",
         "ID": 8571,
         "Class": 10,
@@ -15,4 +14,6 @@ var student = [
 ]
 
 // Accessing object from another page
-module.exports = { student }
+module.exports = {
+    student
+}
