@@ -11,8 +11,8 @@ Some VS Code User Shortcut
 - Ctrl+/ (To comment Your Code)
 - Shift+Tab (To reverse Tab)
 
-Package
--------
+Install Following Package
+-------------------------
 
 ``
  npm init -y
@@ -24,4 +24,8 @@ npm i prompt-sync
 
 ``
 npm i fs path
+``
+
+``
+npm i dotenv
 ``

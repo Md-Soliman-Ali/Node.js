@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "dateformat": "^5.0.3",
-    "fs": "0.0.1-security",
+    "dotenv": "^16.0.1",
+    "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "prompt-sync": "^4.2.0"
   },
